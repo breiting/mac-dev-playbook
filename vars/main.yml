@@ -3,8 +3,8 @@ downloads: ~/.ansible-downloads/
 
 configure_sudoers: yes
 
-dotfiles_repo: https://github.com/geerlingguy/dotfiles.git
-dotfiles_repo_local_destination: ~/Dropbox/Development/GitHub/dotfiles
+dotfiles_repo: https://github.com/breiting/dotfiles.git
+dotfiles_repo_local_destination: ~/dotfiles
 dotfiles_files:
   - .bash_profile
   - .gitconfig
@@ -14,43 +14,45 @@ dotfiles_files:
   - .vimrc
 
 homebrew_installed_packages:
+  - ack
   - ansible
+  - astyle
   - autoconf
-  - bash-completion
+  - brew-cask
+  - clang-format
+  - cmake
+  - cppcheck
+  - ctags
+  - curl
   - docker
   - docker-compose
   - docker-machine
-  - gettext
+  - ffmpeg
+  - fontconfig
+  - freeglut
+  - freetype
   - git
-  - go
+  - gnu-sed
+  - graphviz
   - gpg
-  - hub
-  - httpie
-  - iperf
-  - libdvdcss
-  - libevent
-  - packer
-  - python
-  - sqlite
-  - mcrypt
-  - mysql
-  - npm
-  - nvm
-  - php56
-  - php56-mcrypt
-  - php56-xdebug
-  - ssh-copy-id
-  - cowsay
-  - ios-sim
-  - readline
-  - subversion
-  - kdiff3
+  - grep
+  - imagemagick
+  - lcov
+  - libusb
+  - libxml2
+  - libyaml
+  - mosquitto
+  - nmap
+  - opencv
   - openssl
-  - pv
-  - drush
+  - pandoc
+  - python
+  - qt
+  - rbenv
+  - tmux
+  - tree
+  - vim
   - wget
-  - wrk
-  - brew-cask
 
 homebrew_taps:
   - caskroom/cask

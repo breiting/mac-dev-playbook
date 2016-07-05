@@ -1,8 +1,10 @@
 # Mac Development Ansible Playbook
 
-This playbook installs and configures most of the software I use on my Mac for web and software development. Some things in macOS are difficult to automate (notably, the Mac App Store and certain tools from Apple), so I still have some manual installation steps, but at least it's all documented here.
+This repository was initially created by Michael Griffin and was modified to my needs. Feel free to fork this repository
+and make your changes.
 
-This is a work in progress, and is mostly a means for me to document my current Mac's setup. I'll be adding settings and packages to this set of playbooks over time.
+This is a work in progress, and is mostly a means for me to document my current Mac's setup. I'll be adding settings and
+packages to this set of playbooks over time.
 
 *See also*:
 
@@ -16,7 +18,9 @@ This is a work in progress, and is mostly a means for me to document my current 
   2. Ensure Apple's command line tools are installed (`xcode-select --install` to launch the installer).
   3. Clone this repository to your local drive.
   4. Run the command `$ ansible-galaxy install -r requirements.yml` inside this directory to install required Ansible roles.
-  5. Run `ansible-playbook main.yml -i inventory -u [username] -U [username] --ask-sudo-pass` from the same directory as this README file (substitute `[username]` for your macOS account username). Enter your account password when prompted.
+  5. Run `ansible-playbook main.yml -i inventory -u [username] -U [username] --ask-sudo-pass` from the same directory as
+     this README file (substitute `[username]` for your macOS account username). Enter your account password when
+     prompted.
 
 ## Included Applications / Configuration
 
@@ -70,7 +74,8 @@ Packages (installed with Homebrew):
   - wget
   - brew-cask
 
-My [dotfiles](https://github.com/geerlingguy/dotfiles) are also installed into the current user's home directory, including the `.osx` dotfile for configuring many aspects of macOS for better performance and ease of use.
+My [dotfiles](https://github.com/breiting/dotfiles) are also installed into the current user's home directory, including
+the `.osx` dotfile for configuring many aspects of macOS for better performance and ease of use.
 
 Finally, there are a few other preferences and settings added on for various apps and services.
 
