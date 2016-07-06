@@ -34,6 +34,7 @@ homebrew_installed_packages:
   - git
   - gnu-sed
   - graphviz
+  - graphicsmagick
   - gpg
   - grep
   - imagemagick
