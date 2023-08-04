@@ -35,17 +35,44 @@ dotfiles_files:
 
 homebrew_installed_packages:
   # - ansible # Installed via Pip.
-  - autoconf
   - ack
+  - autoconf
+  - buf
+  - cmake
+  - eigen
+  - ffmpeg
+  - fzf
+  - gcc
+  - gh
   - git
   - github/gh/gh
+  - gnu-sed
+  - gnupg
   - go
   - gpg
-  - sqlite
+  - grpc
+  - imagemagick
+  - jq
+  - lazygit
+  - lua
+  - neovim
   - nmap
   - node
-  - readline
+  - opencv
   - openssl
+  - pandoc
+  - poppler
+  - protobuf
+  - protoc-gen-go-grpc
+  - python@3.11
+  - qrencode
+  - readline
+  - ripgrep
+  - speedtest-cli
+  - sqlite
+  - stow
+  - tmux
+  - tree
   - wget
 
 homebrew_taps:
@@ -54,9 +81,31 @@ homebrew_taps:
 
 homebrew_cask_appdir: /Applications
 homebrew_cask_apps:
-  # - docker
-  # - google-chrome
+  - 1password
+  - adguard
   - blender
+  - cardhop
+  - cloudcompare
+  - docker
+  - drawio
+  - fantastical
+  - font-jetbrains-mono-nerd-font
+  - font-roboto-mono-nerd-font
+  - gimp
+  - google-chrome
+  - google-cloud-sdk
+  - insomnia
+  - iterm2
+  - karabiner-elements
+  - librecad
+  - mactex-no-gui
+  - meshlab
+  - musescore
+  - rectangle
+  - signal
+  - spotify
+  - xmind
+  - youtube-to-mp3
 
 # See `geerlingguy.mas` role documentation for usage instructions.
 mas_installed_apps: []
