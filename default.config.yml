@@ -82,13 +82,11 @@ homebrew_taps:
 homebrew_cask_appdir: /Applications
 homebrew_cask_apps:
   - 1password
-  - adguard
   - blender
   - cardhop
   - cloudcompare
   - docker
   - drawio
-  - fantastical
   - font-jetbrains-mono-nerd-font
   - font-roboto-mono-nerd-font
   - gimp
@@ -108,7 +106,16 @@ homebrew_cask_apps:
   - youtube-to-mp3
 
 # See `geerlingguy.mas` role documentation for usage instructions.
-mas_installed_apps: []
+mas_installed_apps:
+  - { id: 1440147259, name: "AdGuard for Safari (1.11.14)" }
+  - { id: 823766827, name: "OneDrive (23.147.0716)" }
+  - { id: 975937182, name: "Fantastical (3.7.17)" }
+  - { id: 363738376, name: "forScore (14.0.3)" }
+  - { id: 1451685025, name: "WireGuard (1.0.16)" }
+  - { id: 1480933944, name: "Vimari (2.1.1)" }
+  - { id: 634148309, name: "Logic Pro (10.7.9)" }
+  - { id: 1290358394, name: "Cardhop (2.2.9)" }
+
 mas_email: ""
 mas_password: ""
 
